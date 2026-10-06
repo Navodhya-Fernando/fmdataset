@@ -1,0 +1,41 @@
+# Face images - DO NOT commit for privacy
+raw/
+unknown_extra/
+*.jpg
+*.jpeg
+*.png
+
+# Generated PyTorch dataset files
+processed/*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+.dl/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Matplotlib / temporary outputs
+*.svg
+*.pdf
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
