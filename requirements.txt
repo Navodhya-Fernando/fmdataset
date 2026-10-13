@@ -1,0 +1,20 @@
+# Lab 2 dataset pipeline and Lab 3 model comparison
+# PyTorch and torchvision are pinned to the versions used by tutorial.ipynb.
+# The +cu130 suffix is intentionally omitted so pip can select the correct wheel
+# for the target machine (CPU or CUDA).
+torch==2.14.1
+torchvision==0.29.1
+
+# Dataset preparation, augmentation, EDA, and webcam capture
+numpy==2.5.1
+Pillow==12.3.0
+matplotlib==3.11.0
+seaborn==0.13.2
+opencv-python==4.13.0.92
+
+# Stratified splitting and evaluation reports
+scikit-learn==1.9.1
+
+# Model architecture diagrams in tutorial.ipynb
+torchview==0.2.7
+graphviz==0.21
